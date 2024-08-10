@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-row:nth-child(even) {
+    background-color: #65cbb0;
+    /* Analog rang */
+}
+
+.table-row:nth-child(odd) {
+    background-color: #B20874;
+    /* Trio rang */
+}
+.aside{
+    margin-left: 200px;
+}
